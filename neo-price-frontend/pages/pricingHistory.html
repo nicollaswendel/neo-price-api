@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../images/favicon.png" type="image/jpg">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="../js/auth.js" defer></script>
+  <script src="../js/pricingHistory.js" defer></script>
+  <title>NeoPrice - Calculator</title>
+</head>
+
+<body>
+
+  <div class="left">
+
+    <h2>
+      <a href="../index.html">NeoPrice</a>
+    </h2>
+
+    <nav>
+
+      <ul>
+
+        <li>
+          <a href="/pages/calculator.html">
+            Calculadora
+          </a>
+        </li>
+
+        <li>
+          <a>
+            Histórico
+          </a>
+        </li>
+
+        <li>
+          <a href="/pages/customer.html">
+            Clientes
+          </a>
+        </li>
+
+        <li>
+          <a href="#" id="logoutButton">
+            Sair
+          </a>
+        </li>
+
+      </ul>
+
+    </nav>
+
+  </div>
+
+  <div class="right">
+
+    <div class="welcome">
+
+      <h1>Histórico de Precificações</h1>
+
+      <p class="pages-subtitles">
+        Consulte as precificações salvas no sistema.
+      </p>
+
+    </div>
+
+    <div class="history-container">
+
+      <div class="card">
+
+        <table>
+
+          <thead>
+
+            <tr>
+
+              <th>Cliente</th>
+              <th>Custo</th>
+              <th>Margem (%)</th>
+              <th>Preço Sem Imposto</th>
+              <th>Imposto (%)</th>
+              <th>Venda Final</th>
+              <th>Data</th>
+              <th>Ações</th>
+
+            </tr>
+
+          </thead>
+
+          <tbody id="pricingTableBody">
+
+          </tbody>
+
+        </table>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>
